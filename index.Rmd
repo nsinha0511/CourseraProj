@@ -62,6 +62,8 @@ slidifyUI(
 
 
 ```{r,opts.label='shiny',echo=FALSE}
+library(shiny)
+library(slidify)
 slidifyUI(
   mainPanel(
     h3("Illustrating Inputs"),
